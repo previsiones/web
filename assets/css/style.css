@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #999634;
+  color: #9996347e;
   border: 2px solid #999634;
 }
 
@@ -460,7 +460,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: #999634;
   display: inline-block;
 }
 
@@ -480,7 +480,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #f3f9fd;
+  background: #99963460;
   padding: 10px 0;
   text-align: center;
 }
@@ -790,7 +790,7 @@ section {
 }
 
 .more-services .card:hover .card-body {
-  background: #3498db;
+  background: #999634;
 }
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
