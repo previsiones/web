@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #444444;
+  color: #f4f4f4;
 }
 
 a {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  background: #999634;
+  background: #f4f4f4;
 }
 
 #header.header-scrolled {
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #f3f4f5;
+  color: #999634;
 }
 
 .navbar .getstarted {
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3498db;
+  color: #dce4e9;
 }
 
 .navbar .dropdown:hover > ul {
@@ -339,13 +339,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: whitesmoke;
 }
 
-#hero h2 {
-  color: #484848;
+#hero h2{
+  color: whitesmoke;
   margin-bottom: 50px;
   font-size: 24px;
+}
+#hero p {
+  color: whitesmoke;
 }
 
 #hero .btn-get-started {
@@ -503,7 +506,12 @@ section {
   filter: none;
   transform: scale(1.1);
 }
-
+.clients h2 {
+  color:#999634;
+}
+.clients p {
+  color: #999634;
+}
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
@@ -543,7 +551,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #3498db;
+  color: #999634;
   line-height: 1;
 }
 
@@ -561,15 +569,15 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #3498db;
+  color: #999634;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #3498db;
+  border: 2px solid #999634;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #3498db;
+  background: #999634;
   color: #fff;
   text-decoration: none;
 }
@@ -603,7 +611,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #3498db;
+  color: #999634;
   float: left;
   line-height: 0;
 }
@@ -682,7 +690,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: #999634;
   right: 0;
   top: 0;
   width: 100%;
@@ -698,7 +706,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #999634;
   transition: all 0.3s ease-in-out;
 }
 
@@ -733,7 +741,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color: #999634;
 }
 
 /*--------------------------------------------------------------
@@ -828,7 +836,7 @@ section {
 }
 
 .features .icon-box h3 a:hover {
-  color: #3498db;
+  color: #999634;
 }
 
 .features .icon-box:hover {
@@ -906,11 +914,11 @@ section {
   height: 12px;
   background-color: #999634;
   opacity: 1;
-  border: 1px solid #3498db;
+  border: 1px solid #999634;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3498db;
+  background-color: #999634;
 }
 
 @media (max-width: 767px) {
@@ -1159,7 +1167,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #3498db;
+  color: #999634;
 }
 
 .team .member .social i {
@@ -1220,7 +1228,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #3498db;
+  color: #999634;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
@@ -1252,7 +1260,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #3498db;
+  color: #999634;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1271,8 +1279,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #3498db;
-  color: #3498db;
+  border: 2px solid #999634;
+  color: #999634;
   font-size: 14px;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
@@ -1281,22 +1289,22 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #3498db;
+  background: #999634;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #3498db;
+  border-color: #999634;
 }
 
 .pricing .recommended .btn-buy {
-  background: #3498db;
+  background: #999634;
   color: #fff;
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #2383c4;
-  border-color: #2383c4;
+  background: #999634;
+  border-color: #999634;
 }
 
 /*--------------------------------------------------------------
@@ -1309,7 +1317,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #8bc4ea;
+  color: #999634;
   font-size: 24px;
   float: left;
   line-height: 0;
@@ -1357,7 +1365,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3498db;
+  color: #999634;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1366,11 +1374,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #3498db;
+  border: 1px solid #999634;
 }
 
 .contact .social-links a:hover {
-  background: #3498db;
+  background: #999634;
   color: #fff;
 }
 
@@ -1380,7 +1388,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #3498db;
+  color: #999634;
   float: left;
   line-height: 1;
 }
@@ -1458,7 +1466,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2383c4;
+  background: #999634;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1566,5 +1574,5 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #3498db;
+  color: #999634;
 }
