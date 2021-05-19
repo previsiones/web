@@ -497,8 +497,11 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+
 .clients {
   background: #99963460;
+  margin-left: 107px;
+  margin-right:118px;
   margin-top: 0px;
   padding: 0px 0;
   text-align: center;
@@ -528,15 +531,40 @@ section {
 .clients p {
   color: #484848;
 }
-@media (max-width: 500px) {
-  .clients img {
-    width: 40%;
-  }
+@media (max-width: 1780px) {
+  .clients {
+     margin-left: 108px;
+     margin-right: 117px;
+   }
+@media (max-width: 1308px) {
+  .clients {
+     margin-left: 80px;
+     margin-right:100px;
+    }
+}
+@media (max-width: 1024px) {
+  .clients {
+     margin-left: 40px;
+     margin-right:50px;
+    }
+}
+@media (max-width: 780px) {
+  .clients {
+     margin-left: 40px;
+     margin-right:40px;
+    }
 }
 
 @media (max-width: 575px) {
-  .clients img {
-    width: 30%;
+  .clients {
+      margin-left: 25px;
+      margin-right:25px;
+  }
+}
+@media (max-width: 280px) {
+  .clients {
+      margin-left: 10px;
+      margin-right:10px;
   }
 }
 
